@@ -5,8 +5,9 @@
         { "id": 3, "name": "Sydney" },
         { "id": 4, "name": "Tokyo" }
     ],
-    "comments": [
-      { "id": 1, "body": "some comment", "postId": 1 }
-    ],
-    "profile": { "name": "typicode" }
+    "hotCities": [
+        { "id": 1, "name": "London", "status":1, "sort":1 },
+        { "id": 2, "name": "New York","status":1, "sort":1 },
+        { "id": 3, "name": "Sydney","status":2, "sort":1 }
+    ]
   }
