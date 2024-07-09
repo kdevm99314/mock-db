@@ -1,18 +1,23 @@
 {
-    "cities": [
-        { "id": 1, "name": "London" },
-        { "id": 2, "name": "New York" },
-        { "id": 3, "name": "Sydney" },
-        { "id": 4, "name": "Tokyo" }
+  "cities": {
+    "code": 200,
+    "data": [
+      { "id": 1, "name": "London" },
+      { "id": 2, "name": "New York" },
+      { "id": 3, "name": "Sydney" },
+      { "id": 4, "name": "Tokyo" }
     ],
-    "hotCities": {
-        "code":200,
-        "data": [
-            { "id": 1, "name": "London", "status":1, "sort":1 },
-            { "id": 2, "name": "New York","status":1, "sort":1 },
-            { "id": 3, "name": "Sydney","status":2, "sort":1 }
-        ],
-        "total":3,
-        "message":"success"
-    }
+    "total": 4,
+    "message": "success"
+  },
+  "hotCities": {
+    "code": 200,
+    "data": [
+      { "id": 1, "name": "London", "status": 1, "sort": 1 },
+      { "id": 2, "name": "New York", "status": 1, "sort": 1 },
+      { "id": 3, "name": "Sydney", "status": 2, "sort": 1 }
+    ],
+    "total": 3,
+    "message": "success"
   }
+}
