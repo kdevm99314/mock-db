@@ -1,0 +1,12 @@
+{
+    "cities": [
+        { "id": 1, "name": "London" },
+        { "id": 2, "name": "New York" },
+        { "id": 3, "name": "Sydney" },
+        { "id": 4, "name": "Tokyo" }
+    ],
+    "comments": [
+      { "id": 1, "body": "some comment", "postId": 1 }
+    ],
+    "profile": { "name": "typicode" }
+  }
