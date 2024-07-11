@@ -1,5 +1,102 @@
 {
-  "cities": {
+  "datingOne": {
+    "code": 200,
+    "data": [
+      {
+        "id": 1,
+        "datingId": 1,
+        "chargeAmount": 100,
+        "platform": "iOS",
+        "createdTime": "2020-01-01 10:00:00",
+        "operatorName": "admin",
+        "datingTitle": "Dating Girl 01",
+        "type":1,
+        "cover":"https://bucket-haijiao-test.s3-accelerate.amazonaws.com",
+        "merchantName":"Merchant 01",
+        "merchantId":1,
+        "categoryName":"Dating 01 - Category 01",
+        "datingCategoryId":1,
+        "tagName":"Dating 01 - Tag 01",
+        "tagId":1,
+        "cityName":"City 01",
+        "cityId":1,
+        "lastedPurchasesDate":"2020-01-01 10:00:00",
+        "numberPurchases":200,
+        "sumPurchases":300
+      },
+      {
+        "id": 2,
+        "datingId": 2,
+        "chargeAmount": 100,
+        "platform": "Android",
+        "createdTime": "2020-01-01 10:00:00",
+        "operatorName": "admin",
+        "datingTitle": "Dating Girl 01",
+        "type":1,
+        "cover":"https://bucket-haijiao-test.s3-accelerate.amazonaws.com",
+        "merchantName":"Merchant 02",
+        "merchantId":1,
+        "categoryName":"Dating 01 - Category 02",
+        "datingCategoryId":2,
+        "tagName":"Dating 01 - Tag 02",
+        "tagId":1,
+        "cityName":"City 02",
+        "cityId":1,
+        "lastedPurchasesDate":"2020-01-01 10:00:00",
+        "numberPurchases":22,
+        "sumPurchases":220
+      },
+      {
+        "id": 3,
+        "datingId": 3,
+        "chargeAmount": 300,
+        "platform": "iOS",
+        "createdTime": "2020-01-01 10:00:00",
+        "operatorName": "super user",
+        "datingTitle": "Dating Girl 03",
+        "type":1,
+        "cover":"https://bucket-haijiao-test.s3-accelerate.amazonaws.com",
+        "merchantName":"Merchant 01",
+        "merchantId":1,
+        "categoryName":"Dating 01 - Category 01",
+        "datingCategoryId":1,
+        "tagName":"Dating 01 - Tag 01",
+        "tagId":1,
+        "cityName":"City 01",
+        "cityId":1,
+        "lastedPurchasesDate":"2020-01-01 10:00:00",
+        "numberPurchases":33,
+        "sumPurchases":330
+      },
+      {
+        "id": 4,
+        "datingId": 4,
+        "chargeAmount": 400,
+        "platform": "Android",
+        "createdTime": "2020-01-01 10:00:00",
+        "operatorName": "admin - user",
+        "datingTitle": "Dating Girl 01",
+        "type":1,
+        "cover":"https://bucket-haijiao-test.s3-accelerate.amazonaws.com",
+        "merchantName":"Merchant 04",
+        "merchantId":4,
+        "categoryName":"Dating 01 - Category 04",
+        "datingCategoryId":4,
+        "tagName":"Dating 01 - Tag 02",
+        "tagId":2,
+        "cityName":"Beijing",
+        "cityId":22,
+        "lastedPurchasesDate":"2020-01-01 10:00:00",
+        "numberPurchases":400,
+        "sumPurchases":440
+      }
+    ],
+    "message": "success",
+    "pages": 1,
+    "success": true,
+    "total": 4
+  },
+  "datingTwo": {
     "code": 200,
     "data": [
       { "id": 1, "name": "London" },
@@ -7,17 +104,9 @@
       { "id": 3, "name": "Sydney" },
       { "id": 4, "name": "Tokyo" }
     ],
-    "total": 4,
-    "message": "success"
-  },
-  "hotCities": {
-    "code": 200,
-    "data": [
-      { "id": 1, "name": "London", "status": 1, "sort": 1 },
-      { "id": 2, "name": "New York", "status": 1, "sort": 1 },
-      { "id": 3, "name": "Sydney", "status": 2, "sort": 1 }
-    ],
-    "total": 3,
-    "message": "success"
+    "message": "success",
+    "pages": 1,
+    "success": true,
+    "total": 7
   }
 }
